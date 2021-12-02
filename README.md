@@ -61,3 +61,17 @@ As a developer, you will be writing tests for every component. As we've learned,
 - [ ] Connect your fork to Codegrade using the "Connect Git" button.
 - [ ] Find your newly created fork from the list and push your work to main.
 - [ ] Check this video for details: www.youtube.com/watch?v=fC2BO7dI6IQ
+
+
+Possible Test Cases:
+-Form properly renders to DOM
+-Can click on and input to each field
+-Each field's error message correctly displays when applicable
+    -First Name must be at least 5 characters long
+    -Last Name is required
+    -Email must be a valid email
+-Submit button is clickable and correctly displays "You Submitted" form
+-Submit button does not submit form if errors are present
+-"You Submitted" form correctly updates if fields are edited after submission 
+    -and disappears if form becomes invalid
+
